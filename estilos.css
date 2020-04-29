@@ -1,0 +1,208 @@
+
+
+
+header{
+	background-color: black;
+	color: #fff;
+}
+body{
+	background-color:#eaeaea;
+}
+
+aside{
+	background-color: #c0392b;
+	color: #fff;
+}
+footer{
+	background-color:#3e6dab;
+	color: #fff;
+}
+h1{
+	font-size: 20px;
+	
+}
+a{
+	color:#a9a9a8;
+	font-size: 16px;
+
+}
+p{
+	text-align: center;
+	padding: 20px;
+    border-top: 1px solid #81a0c8;
+    margin-top: 20px;
+
+}
+form input, textarea{
+	width: 100%;
+	border: none;
+	margin-bottom:10px;
+	padding: 10px;
+	background-color: #b5c4e3;
+}
+.busqueda{
+width: 270px;
+height: 34px;
+margin-top: 18px;
+
+
+
+}
+
+
+.derecha{
+	display: flex;
+	justify-content: flex-end;
+}
+#bus-button{
+	border: none;
+	height:40px;
+	width:25%;
+	border-radius: 0;
+}
+#center{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+h3{
+	text-align: center;
+}
+h4{
+	text-align: center;
+	font-size: 20px;
+}
+.buscar_producto{
+	width:70%;
+	background-color:#fff;
+}
+#icon-menu{
+	color: #fff;
+}
+ .dropdown-menu{
+	background-color:#a9a9a8 ;
+	opacity: 0.85;
+
+}
+#sub-list{
+	text-align: center;
+}
+
+#espaciado-banner{
+	margin-top: 10px;
+}
+.bordes {
+	border-bottom: 4px solid #9c9c9c;
+	padding-top: 35px;
+	margin-bottom: 35px;
+
+}
+
+.banners{
+	margin-bottom: 20px;
+}
+.posicion-derecha{
+	text-align: right;
+}
+#espaciado-banner{
+	margin-top: 10px;
+}
+.color-fondo{
+	background-color: black;
+	opacity: 0.80;
+	color: #fff;
+}
+.titulo-about{
+	color: black;
+	opacity: 0.75;
+	font-size:40px; 
+	padding-bottom: 25px;
+}
+.sub-titulo{
+color: #5c6363;
+font-size:20px;
+padding-bottom: 20px;
+}
+
+h2{
+	text-align: center;
+	color: #5c6363;
+}
+
+nav {
+	background-color: #3e6dab;
+
+
+}
+button span{
+	background-color: #fff;
+	color:black;
+}
+li a{
+	color: #fff;
+}
+
+@media screen and (max-width:768px ){
+	#center {
+		display: block;
+	}
+}
+@media screen and (min-width:730px ){
+	.ocultar{
+		display: none;
+		
+	}
+}
+@media screen and (max-width:990px ){
+	.ult-banner{
+	margin-left: auto;
+	margin-right: auto;
+		
+	}
+}
+
+@media screen and (min-width:360px ){
+	.nav-sub{
+display: flex;
+justify-content: space-around;
+
+		
+	}
+}
+@media screen and (min-width:320px ){
+	.nav-sub{
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+		
+	}
+}
+@media screen and (min-width:768px ){
+	.nav-sub{
+display: flex;
+justify-content: space-around;
+
+
+		
+	}
+}
+
+@media screen and (min-width:320px ){
+	.titulo-principal{
+font-size: 20px;
+padding-bottom:  1000px;
+
+
+		
+	}
+}
+
+
+
+
